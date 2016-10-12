@@ -6,6 +6,8 @@ background=`tput setab 7`
 
 echo "${green}install ruby .............${reset}"
 echo "${blue}${background} rbenv install 2.3.1${reset}"
+
+###################
 rbenv install 2.3.1
 rbenv global 2.3.1
 
@@ -14,6 +16,8 @@ ruby -v
 
 echo "${green}ruby bundler install${reset}"
 echo "${blue}${background} gem install bundler${reset}"
+
+##################
 gem install bundler
 
 rbenv rehash

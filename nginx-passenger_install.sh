@@ -3,7 +3,7 @@ green=`tput setaf 2`
 blue=`tput setaf 4`
 reset=`tput sgr0`
 background=`tput setab 7`
-echo "${red}${background update.......}"
+echo "${red}${background update.......}${reset}"
 sudo apt-get update
 
 
@@ -14,6 +14,8 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CA
 
 echo "${green} install ca-certificates${reset}"
 echo "${blue}${background} sudo apt-get install -y apt-transport-https ca-certificates${reset}"
+
+###########################################################
 sudo apt-get install -y apt-transport-https ca-certificates
 
 echo "${green}add apt repo.......${reset}"
@@ -21,11 +23,15 @@ echo "${green}add apt repo.......${reset}"
 
 sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main > /etc/apt/sources.list.d/passenger.list'
 
-echo "${red}${background}update......."
+echo "${red}${background}update.......${reset}"
+
+#################
 sudo apt-get update
 
 echo "${green}install nginx..............${reset}"
-echo "${blue}${background} sudo apt-get install -y nginx-extras passenger"
+echo "${blue}${background} sudo apt-get install -y nginx-extras passenger${reset}"
+
+#############################################
 sudo apt-get install -y nginx-extras passenger
 
 echo "${green}{background}############################################################################${reset}"
