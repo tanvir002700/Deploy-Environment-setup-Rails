@@ -19,7 +19,7 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
 echo "${green}setup ruby build...............................${reset}"
-echo "${blue}{background}git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build${reset}"
+echo "${blue}${background}git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build${reset}"
 
 #############################################################################
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
