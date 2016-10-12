@@ -12,5 +12,8 @@ echo "${blue}${background} sudo apt-get install git -y${reset}"
 sudo apt-get install git -y
 
 
-echo ''
+source rbenv_install.sh
+source ruby_install.sh
+source nginx-passenger_install.sh
+source mysql_install
 
