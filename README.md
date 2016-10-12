@@ -5,6 +5,7 @@ Rails application deploy environment setup
 
 <h1>NgiNx config.</h1>
 copy and paste nginx.conf file to /etc/nginx/ </br>
+After Editing server_name and root of application, </br>
 copy and paste default_server file to /etc/nginx/site-enable
 
 <h1>Setup capistrano in rails app.</h1>
