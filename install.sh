@@ -3,7 +3,7 @@ green=`tput setaf 2`
 blue=`tput setaf 4`
 reset=`tput sgr0`
 background=`tput setab 7`
-echo "${red}${background update.......}"
+echo "${red}${background} update......."
 
 sudo apt-get update
 
