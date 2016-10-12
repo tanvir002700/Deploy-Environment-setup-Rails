@@ -13,7 +13,7 @@ echo "${green}ruby version: ${reset}"
 ruby -v
 
 echo "${green}ruby bundler install${reset}"
-echo "${blue}{background} gem install bundler${reset}"
+echo "${blue}${background} gem install bundler${reset}"
 gem install bundler
 
 rbenv rehash

@@ -15,5 +15,5 @@ sudo apt-get install git -y
 source rbenv_install.sh
 source ruby_install.sh
 source nginx-passenger_install.sh
-source mysql_install
+source mysql_install.sh
 

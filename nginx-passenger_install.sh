@@ -21,10 +21,11 @@ echo "${green}add apt repo.......${reset}"
 
 sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xenial main > /etc/apt/sources.list.d/passenger.list'
 
-echo "${red}${background update.......}"
+echo "${red}${background}update......."
 sudo apt-get update
 
 echo "${green}install nginx..............${reset}"
+echo "${blue}${background} sudo apt-get install -y nginx-extras passenger"
 sudo apt-get install -y nginx-extras passenger
 
 echo "${green}{background}############################################################################${reset}"
